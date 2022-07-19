@@ -12,13 +12,8 @@
         BODY STYLE START
 -------------------------------------------------------*/
 body {
-
-
     font-family: 'Poppins', sans-serif;
 
-    margin-top: 50px;
-    margin-left: 140px;
-    margin-right: 140px;
 }
 
 
@@ -29,26 +24,25 @@ body {
 /*-----------------------------------------------------
         NAVBAR STYLE START
 -------------------------------------------------------*/
+
 .nav-container {
-  
-    background: #161616;
+    height: 646px;
+    width: 1321px;
     border-radius: 30px;
+    background-color: #161616;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-around;
+    margin-bottom: 130px;
 }
 
 .nav-details {
-  
-    width: 520px;
-    height: 390px;
-    margin: 100px 24px 100px 100px;
+    Width: 531px;
+    Height: 424px;
     color: white;
+    margin: 100px 25px 100px 100px;
 }
 
 .nav-title {
-    width: 531px;
-    height: 240px;
     font-size: 60px;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -57,7 +51,7 @@ body {
 .nav-details p {
     width: 506px;
     height: 78px;
-    margin: 20px 0px;
+
 }
 
 button {
@@ -67,20 +61,22 @@ button {
     border-radius: 5px;
     border: none;
     padding: 2px;
+    color: white;
 }
 
-
+button .fa-solid{
+    padding-left: 10px;
+}
 
 .banner {
-    margin-top: 116px;
-    margin-right: 40px;
-   
-    width: 450px;
-    height: 475px;
+    margin-top: 45px;
+    width: 500px;
+    height: 600px;
 }
 
 .banner img {
     width: 100%;
+    height: 100%;
 
 }
 
