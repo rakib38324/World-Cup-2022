@@ -332,14 +332,14 @@ button .fa-solid {
 /*-----------------------------------------------------
         Footer style End
 -------------------------------------------------------*/
-
+/*-----------------------------------------------------
+        Mobile responsibe style start
+-------------------------------------------------------*/
 
 @media screen and (max-width:576px) {
     .nav-container {
-        border: 2px solid red;
         width: 570px;
         height: 672px;
-        background-color: green;
         padding: 0px;
         margin: 0px;
         display: flex;
@@ -354,7 +354,7 @@ button .fa-solid {
     }
 
     .nav-details p {
-       
+       font-size: 20px;
         width: 400px;
         height: 40px;
         white-space: nowrap;
@@ -365,8 +365,7 @@ button .fa-solid {
     .nav-title {
         
         font-weight: 700;
-        font-size: 22px;
-        font-size: 5vw;
+        font-size: 10vw;
     }
 
 
@@ -377,14 +376,13 @@ button .fa-solid {
 
     }
 
-    /*------------------------------
-    Annimation style with movile divice
+    /*------------------------------------------------
+    Annimation style with mobile divice
     --------------------------------------------------*/
     @keyframes slide {
         0% {
             width: 55px;
             height: 32px;
-            background-color: #DD0000;
             border-radius: 5px;
             border: none;
             padding: 2px;
@@ -396,7 +394,6 @@ button .fa-solid {
 
         100% {
             border: 2px solid tomato;
-
         }
     }
 
@@ -416,7 +413,7 @@ button .fa-solid {
 
 
     .fa-solid {
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .banner {
@@ -459,3 +456,7 @@ button .fa-solid {
         
     }
 }
+
+/*-----------------------------------------------------
+        Mobile responsibe style End
+-------------------------------------------------------*/
