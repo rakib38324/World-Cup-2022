@@ -64,6 +64,9 @@ body {
     padding: 2px;
     color: white;
     font-size: 20px;
+    transition: width .2s, higth .2s, transform .5s;
+    animation: slide 1s ease-in-out .5s infinite alternate;
+    animation-play-state: running;
 }
 
 button .fa-solid {
@@ -91,6 +94,65 @@ button .fa-solid {
 /*-----------------------------------------------------
         NAVBAR STYLE END
 -------------------------------------------------------*/
+
+
+
+
+
+
+/*-----------------------------------------------------
+      Annimation with live button style star
+-------------------------------------------------------*/
+@keyframes slide {
+    0%{
+        width: 187px;
+    height: 56px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+    color: white;
+    font-size: 20px;
+    transition: width .2s, higth .2s, transform .5s;
+    }
+
+    25%{
+        border: 2px solid green;
+        font-size: 25px;
+    }
+
+    50%{
+        border: 2px solid yellowgreen;
+        font-size: 25px;
+    }
+
+    85%{
+        border: 2px solid blue;
+        font-size: 25px;
+    }
+    100%{
+        border: 2px solid tomato;
+        font-size: 25px;
+    }
+}
+.head:hover .live-button{
+    width: 200px;
+    height: 70px;
+    transform: rotate(360deg);
+
+
+}
+
+/*-----------------------------------------------------
+      Annimation with live button style End
+-------------------------------------------------------*/
+
+
+
+
+
+
+
 
 
 
