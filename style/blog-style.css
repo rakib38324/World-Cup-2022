@@ -73,7 +73,7 @@ button .fa-solid {
     padding-left: 10px;
 }
 
-.live-button:hover{
+.live-button:hover {
     border: 3px solid green;
     border-radius: 5px;
 }
@@ -104,38 +104,40 @@ button .fa-solid {
       Annimation with live button style star
 -------------------------------------------------------*/
 @keyframes slide {
-    0%{
+    0% {
         width: 187px;
-    height: 56px;
-    background-color: #DD0000;
-    border-radius: 5px;
-    border: none;
-    padding: 2px;
-    color: white;
-    font-size: 20px;
-    transition: width .2s, higth .2s, transform .5s;
+        height: 56px;
+        background-color: #DD0000;
+        border-radius: 5px;
+        border: none;
+        padding: 2px;
+        color: white;
+        font-size: 20px;
+        transition: width .2s, higth .2s, transform .5s;
     }
 
-    25%{
+    25% {
         border: 2px solid green;
         font-size: 25px;
     }
 
-    50%{
+    50% {
         border: 2px solid yellowgreen;
         font-size: 25px;
     }
 
-    85%{
+    85% {
         border: 2px solid blue;
         font-size: 25px;
     }
-    100%{
+
+    100% {
         border: 2px solid tomato;
         font-size: 25px;
     }
 }
-.head:hover .live-button{
+
+.head:hover .live-button {
     width: 200px;
     height: 70px;
     transform: rotate(360deg);
@@ -186,25 +188,26 @@ button .fa-solid {
     display: grid;
     grid-template-columns: 200px;
     justify-content: center;
-   
+
 }
 
 .menu-bar a {
     text-align: center;
     text-decoration: none;
     color: #000000;
-    
-    
+
+
 }
 
-.button-bar{
+.button-bar {
     border-radius: 8px;
     background-color: #ffffff;
+    border: .5px solid lightgray;
     padding-top: 20px;
     text-align: center;
 }
 
-#identity{
+#identity {
     background-color: #DD0000;
 }
 
@@ -319,6 +322,140 @@ button .fa-solid {
     padding: 50px 200px 130px 200px;
 }
 
+.social-media{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-left: 10px;
+}
 /*-----------------------------------------------------
         Footer style End
 -------------------------------------------------------*/
+
+
+@media screen and (max-width:576px) {
+    .nav-container {
+        border: 2px solid red;
+        width: 570px;
+        height: 672px;
+        background-color: green;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-details {
+       
+        width: 400px;
+        height: 200px;
+        
+    }
+
+    .nav-details p {
+       
+        width: 400px;
+        height: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .nav-title {
+        
+        font-weight: 700;
+        font-size: 22px;
+        font-size: 5vw;
+    }
+
+
+
+    .nav-title p {
+        width: 180px;
+        height: 48px;
+
+    }
+
+    /*------------------------------
+    Annimation style with movile divice
+    --------------------------------------------------*/
+    @keyframes slide {
+        0% {
+            width: 55px;
+            height: 32px;
+            background-color: #DD0000;
+            border-radius: 5px;
+            border: none;
+            padding: 2px;
+            color: white;
+            font-size: 12px;
+
+        }
+
+
+        100% {
+            border: 2px solid tomato;
+
+        }
+    }
+
+    .live-button {
+        margin-left: 120px;
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+        animation-play-state: paused;
+    }
+
+    .nav-container .live-button:hover {
+        width: 165px;
+        height: 55px;
+        font-size: 15px;
+    }
+
+
+    .fa-solid {
+        font-size: 20px;
+    }
+
+    .banner {
+        margin-top: 0px;
+        margin-left: 200px;
+        width: 200px;
+    }
+
+    .over-view {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .menu-bar{
+        background-color: white;
+        color: black;
+        position: static;
+        border: none;
+        margin-left: 130px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 130px;
+    }
+
+    .footer {
+        width: 570px;
+        height: 500px;
+    }
+
+    .footer-menu{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 30px;
+        margin-left: 200px;
+        
+    }
+}
