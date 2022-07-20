@@ -44,7 +44,7 @@ body {
 }
 
 .nav-title {
-    font-size: 60px;
+    font-size: 5vw;
     margin-top: 0%;
     margin-bottom: 0%;
 }
@@ -286,6 +286,23 @@ button .fa-solid {
     padding-right: 50px;
 }
 
+.view-button{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    width: 180px;
+    height: 100px;
+    padding-top: 18px;
+    padding-left: 70px;
+    font-size: 20px;
+    margin-left: 330px;
+    margin-top: 100px;
+}
+
+.view-button{
+    display: none;
+}
+
 /*-----------------------------------------------------
                 Blogs Style end
 -------------------------------------------------------*/
@@ -332,6 +349,10 @@ button .fa-solid {
 /*-----------------------------------------------------
         Footer style End
 -------------------------------------------------------*/
+
+
+
+
 /*-----------------------------------------------------
         Mobile responsibe style start
 -------------------------------------------------------*/
@@ -443,6 +464,10 @@ button .fa-solid {
         margin-left: 130px;
     }
 
+    .view-button{
+        display: none;
+    }
+
     .footer {
         width: 570px;
         height: 500px;
@@ -459,4 +484,90 @@ button .fa-solid {
 
 /*-----------------------------------------------------
         Mobile responsibe style End
+-------------------------------------------------------*/
+
+
+
+
+
+/*-----------------------------------------------------
+        Tablet responsibe style Star
+-------------------------------------------------------*/
+@media screen and (min-width:577px) and (max-width:792px) {
+    .nav-container {
+        width: 970px;
+        height: 672px;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    .nav-details {
+       
+        width: 400px;
+        height: 200px;
+    }
+
+    .nav-details p {
+        font-size: 20px;
+         width: 400px;
+         height: 40px;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+     }
+
+    .banner img{
+        width: 400px;
+        height: 625px;
+    }
+
+
+    .over-view {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .menu-bar{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        border: 5px solid yellow;
+        background-color: white;
+        color: black;
+        position: static;
+        border: none;
+        width: 600px;
+        height: 100px;
+        margin-left: 150px
+    }
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 130px;
+    }
+
+    .view-button{
+        display: flex;
+    }
+
+
+    .footer {
+        width: 970px;
+        height: 672px;
+    }
+
+    .footer-menu{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-left: 200px;
+        margin-top: 30px;
+    }
+
+}
+
+
+
+/*-----------------------------------------------------
+        Tablet responsibe style End
 -------------------------------------------------------*/
